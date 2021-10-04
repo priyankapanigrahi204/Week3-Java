@@ -1,0 +1,9 @@
+css display:
+------------
+-->none doesn't render the elemen on the document and thus not allocating it any space.
+--> display has property none, inline, block, inline-block
+
+css visibility: 
+---------------
+-->hidden does renders the element and even the space is allocated but it is not made visible to the user.
+-->visibility has property visible, hidden, collapse,initial, inherit
