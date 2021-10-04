@@ -1,0 +1,37 @@
+<html>
+
+<head>
+
+<script>
+
+var i = 1;
+
+function addmultiple(mul){
+
+    document.getElementById("result").innerHTML += "<br>"+mul+" X "+i+"="+(mul*i);
+
+    i++;
+
+}
+
+function displaymul(){
+
+    var mul = parseInt(document.getElementById("num").value);
+
+    setInterval(addmultiple, 1000, mul);
+
+}
+
+</script>
+
+</head>
+
+<body>
+
+Enter value: <input type="text" id="num" value="" onchange="displaymul();"/>
+
+<div id="result"> </div>
+
+</body>
+
+</html>
